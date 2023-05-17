@@ -28,6 +28,11 @@ print("e>r${e>r}");
   print("e<=r${e<=r}");
   print("e==r${e==r}");
   print("e!=r${e!=r}");
-
+  print("------------------");
+  // conditional opertors
+String username="noor", password="12345";
+print(username=="abc" || password=="12345");
+  print(username=="abc" && password=="12345");
+  print(!(username=="abc" && password=="12345"));
 
 }
