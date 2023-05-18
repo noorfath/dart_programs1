@@ -51,8 +51,16 @@ print("x--${x--}");
   print(name is! int);
   // 7.bitwise and shift operaors
   //8. conditional/ternary
-  //operators
+  //operators syntax= condition? true statement:false statement;
   int age=2;
-  var result = age>= 18?"eligible to vote": false;
+  dynamic result = age>= 18? "eligible to vote": false;
+  String username1="noor", password1="12345";
+  // String username2="abc",password2="12345";
+  dynamic result1 =(username1=="noor") && (password1=="1234")?"welcome user":"login failed";
+  print(result1);
+  int num1=23,num2=34,num3=45;
+  dynamic result2=num1>num2?(num1>num3?num1:num3):(num2>num3?num2:num3);
+  print(result2);
+
 
 }
