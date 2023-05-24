@@ -2,13 +2,13 @@ import 'dart:io';
 
 void main()
 {
-  int n=10;
+  int n=5;
   print("enter a number ");
-  int r=int.parse(stdin.readLineSync()!);
+   int a= int.parse(stdin.readLineSync()!);
   print("the multiplication table of given number is");
-  for(int i=0;i<=n;i++)
+  for(int b=0;b<=n;b++)
     {
-      print(i*r);
+      print(b*a);
     }
 
 }
