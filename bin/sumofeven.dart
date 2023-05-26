@@ -1,19 +1,18 @@
 void main()
 {
-  //sum of even
-  int n=10,a=0,b=0 ;
+  int n=10,q=0,s=0 ;
   for( int i=0;i<n;i++)
     {
       if(i%2==0)
-        a+=i;
+        q=i;
 
     }
-  print("sum of even numbers${a}");
+  print("sum of even numbers${q}");
   for( int i=0;i<n;i++)
   {
     if(i%2!=0)
-      b+=i;
+      s+=i;
 
   }
-  print("sum of odd numbers${b}");
+  print("sum of odd numbers${s}");
 }

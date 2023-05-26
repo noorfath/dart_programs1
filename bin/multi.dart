@@ -4,11 +4,11 @@ void main()
 {
   int n=5;
   print("enter a number ");
-   int a= int.parse(stdin.readLineSync()!);
+   int y= int.parse(stdin.readLineSync()!);
   print("the multiplication table of given number is");
-  for(int b=0;b<=n;b++)
+  for(int k=0;k<=n;k++)
     {
-      print(b*a);
+      print(k*y);
     }
 
 }

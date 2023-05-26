@@ -1,10 +1,10 @@
 void main(){
 
   int n=10;
-  for( int i=0;i<n;i++)
+  for( int p=0;p<n;p++)
     {
-    if (i % 2!= 0)
-      print(i);
+    if (p% 2!= 0)
+      print(p);
 
   }
 
