@@ -1,19 +1,25 @@
 //main function
+import 'dart:io';
+
 void main(){
-  print("this is main function");
-  fun1();
-  print(fun2());
-  String data= fun3();
-  print(data);
-  fun4(23, 60);
-  print(fun5(45, 56));
+  // print("this is main function");
+  // fun1();
+  // print(fun2());
+  // String data= fun3();
+  // print(data);
+  // fun4(23, 60);
+  // print(fun5(45, 56));
+  print("enter two values");
+  int a = int.parse(stdin.readLineSync()!);
+  int b = int.parse(stdin.readLineSync()!);
+
   fun6();
   print (fun7());
   fun8(2);
-  fun9( 23,34);
-  fun10(34, 12);
-  fun11(56, 78);
-  fun12(23,45);
+  fun9( a,b);
+  fun10(a, b);
+  fun11(a, b);
+  fun12(a,b);
   print(fun13());
 
 }
