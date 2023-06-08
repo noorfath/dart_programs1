@@ -1,0 +1,39 @@
+///constructor is a function with the same name as of a class and will not be having any return type
+///used to invoke objects in a class / or object creation
+///if constructor is not specified by ourselves a class will contain a default constructor named as "Default Constructor"
+///eg; class fun()
+///{ fun(){}--> constructor }
+///fun obj = fun();
+///constructor doesn't return anything
+///need not to be called already ready to be executed during compilation
+///3 types
+///1.default - classname(){}
+///2.parameterised constructor - classname(parameters){}
+///3.named(ui always named constructor) - classname.name(){}
+///named constructor is used when a class need more than one constructor
+///default and parameterised cannot be used together in class
+
+
+///COLLECTIONS- group of values of same or different data types
+///1.list
+///2.set
+///3.map
+///4.queue
+
+
+LIST
+ordered collection of values
+support duplicate elements
+[] eg-> [1,2,3]
+2 types
+fixed length list -cannot add new values
+growable list - can add value as much as possible
+accessing values using index
+index- position allocated for each values in the list
+index always range from 0 to list length-1
+syntax= list name[index];
+
+
+creating
+ list x=[] -empty file
+ list y=[1,3,"hello",2.5] -dynamic file
