@@ -37,3 +37,17 @@ syntax= list name[index];
 creating
  list x=[] -empty file
  list y=[1,3,"hello",2.5] -dynamic file
+
+
+ SUPER KEYWORD
+
+ Parent costructor                 child constructor           superkeyword
+ default                              default                    no need
+ parameterised                        default                   should use
+ default named                        default                   should use
+ parameterised named                  default                   should use
+ default                              parameterised             no need
+ parameterised                        parameterised             should use
+ default named                        parameterised             should use
+
+ if parent is not default then we should use super keyword in child
