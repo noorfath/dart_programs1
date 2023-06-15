@@ -1,24 +1,24 @@
-///constructor is a function with the same name as of a class and will not be having any return type
-///used to invoke objects in a class / or object creation
-///if constructor is not specified by ourselves a class will contain a default constructor named as "Default Constructor"
-///eg; class fun()
-///{ fun(){}--> constructor }
-///fun obj = fun();
-///constructor doesn't return anything
-///need not to be called already ready to be executed during compilation
-///3 types
-///1.default - classname(){}
-///2.parameterised constructor - classname(parameters){}
-///3.named(ui always named constructor) - classname.name(){}
-///named constructor is used when a class need more than one constructor
-///default and parameterised cannot be used together in class
+constructor is a function with the same name as of a class and will not be having any return type
+used to invoke objects in a class / or object creation
+if constructor is not specified by ourselves a class will contain a default constructor named as "Default Constructor"
+eg; class fun()
+{ fun(){}--> constructor }
+fun obj = fun();
+constructor doesn't return anything
+need not to be called already ready to be executed during compilation
+3 types
+/1.default - classname(){}
+/2.parameterised constructor - classname(parameters){}
+/3.named(ui always named constructor) - classname.name(){}
+named constructor is used when a class need more than one constructor
+default and parameterised cannot be used together in class
 
 
-///COLLECTIONS- group of values of same or different data types
-///1.list
-///2.set
-///3.map
-///4.queue
+COLLECTIONS- group of values of same or different data types
+1.list
+2.set
+3.map
+4.queue
 
 
 LIST
@@ -57,8 +57,8 @@ creating
  syntax- abstract class classname{}
  void functionname();   ->(abstract function)
 
- similar to normal class and may or maynot abstract function
- it canhave both abstract and normal functions and datas
+ similar to normal class and may or may not abstract function
+ it can have both abstract and normal functions and datas
  must use abstract keyword for class creation since object creation is not possible
  extends keyword used for inheritance
  does not support multiple inheritance
@@ -70,3 +70,26 @@ class B extends A{} - class A behaves as normal parents
 class C implements A{} - class A behaves as interface i.e datas are hidden can be used only by overriding
  extend keyword in inheritance changes to implements then the parent class becomes interface
 
+
+
+EXCEPTIONS
+if our code has single exception we can use
+1.try{
+code which may have exception
+} on exceptionclassname{}
+2.try{
+  code which may have exception
+  }catch(exceptionclassobject){}
+if our code has more than single exceptions we can use
+try{
+code which may have exception
+}on exceptionclassname1{
+}on exceptionclassname2{
+}.......{
+}catch(exceptionclassobject){}
+
+
+FINALLY block
+finally block followed by try- catch or try - on block
+statements inside this will execute no matter what exception happens,even if handled or not
+codes which should work in any situation should come under finally block
